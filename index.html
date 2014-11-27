@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Timen, hvor alt gik galt</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="lib/cntl.css">
+</head>
+<body>
+<h1 style="margin:40px auto 50px auto" align="center">Timen, hvor alt gik galt</h1>
+<div class="cntl"> <span class="cntl-bar cntl-center"> <span class="cntl-bar-fill"></span> </span>
+  <div class="cntl-states">
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>Daniel ankommer</h4>
+        <p>Daniel ankommer til metrotorvet med Amagerbro sammen med sin ven Innocent for at sælge hjemløseavisen Hus Forbi.  På et tidspunkt falder han omkuld. Innocent skønner, at han ligger der et par timer.</p>
+      </div>
+      <div class="cntl-icon cntl-center">12.00</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>Første forbipasserende</h4>
+        <p>Ulla Miilmann kommer forbi på vej hjem fra arbejde. Hun ser Daniel ligge alene på ryggen med armene ud til siden, mens folk bare går forbi. Han ser ud til at være besvimet af druk. Hun rusker i ham og mærker puls og temperatur. Flere iler til. <br>
+          <br>
+          </p>
+      </div>
+      <div class="cntl-image"><img src="http://lorempixel.com/300/200"></div>
+      <div class="cntl-icon cntl-center">14.00</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>Flere forbipasserende</h4>
+        <p>En af dem er Kirstine Løvdal Nielsen. Hun og en anden kvinde går hen til Daniel og rusker i ham, men han reagerer ikke. </p>
+      </div>
+      <div class="cntl-image"><img src="http://lorempixel.com/300/200"></div>
+      <div class="cntl-icon cntl-center">15.00</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>Første opkald til 114</h4>
+        <p>Kirstine Løvdal Nielsen foretager opkald til 114 (men stilles IKKE om til Alarmcentralen???). Hun bliver her spurgt i telefonen om han er grønlænder, og det svarer hun ja til. Politiet (Peter Dahl politikommissær i Københavns Politi) har siden forklaret, at man på 114 ikke betragtede det som en alvorlig hændelse. Peter Dahl siger. ”Vores operatør i vagtcentralen spørger ind til om vedkommende sover, og det bliver der svaret ja til. Vi opretter en sag på det, og da det lignede en helt normal sag om en fuld person i offentligheden, blev den ikke voldsomt prioteret”.<br>
+          <br>
+          </p>
+      </div>
+      <div class="cntl-image"><img src="http://lorempixel.com/300/200"></div>
+      <div class="cntl-icon cntl-center">15.03</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>Første opkald til Alarmcentralen 112</h4>
+        <p>
+			<ul>
+				<li>AC: Alarmcentalen</li>
+				<li>AN: Hej, der ligger en mand her ved Amagerbro Station</li>
+				<li>AC: Amagerbro Station ja</li>
+				<li>AN: Ja</li>
+				<li>AC: Er det Metro stationen</li>
+				<li>AN: Ja, hvad</li>
+				<li>AC: Hvor ligger han henne</li>
+				<li>AN: Han ligger lige op af trappen</li>
+				<li>AC: Okay</li>
+				<li>AN: Nede fra den</li>
+				<li>AC: Ja</li>
+				<li>AN: Han har, han er bevidstløs men han trækker vejret og hans puls er meget høj</li>
+				<li>AC: Okay, du får lige Ambulancetjenesten i røret og du siger Amagerbro metro Station ikke ... ikke også?</li>
+				<li>AN: Ja</li>
+				<li>AC: Lige et øjeblik</li>
+			</ul>
+		</p>
+      </div>
+      <div class="cntl-image"><img src="http://lorempixel.com/300/200"></div>
+      <div class="cntl-icon cntl-center">'10</div>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="lib/jquery.cntl.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function(e){
+		$('.cntl').cntl({
+			revealbefore: 300,
+			anim_class: 'cntl-animate',
+			onreveal: function(e){
+				console.log(e);
+			}
+		});
+	});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
